@@ -83,7 +83,7 @@ where $g^e$ is the encoder function, t is an element of the translation group, T
 
 4. Make network translationally-symmetric by projecting to a specific momentum, k,
 
-$\Psi^{(k)}_{\theta}(\sigma) = \frac{1}{|T|} \sum_{t \in T}A$, 
+$\Psi^{(k)}_{\theta}$, 
 
 and this is a neural quantum state being constructed via symmetry projection, this is equivalent to group representation projection operator: $\Psi^{(k)} = \frac{1}{|T|} \sum_{t \in T} \chi_k^*(t)\, \hat{T}_t \Psi$. 
 
