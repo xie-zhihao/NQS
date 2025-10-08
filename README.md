@@ -105,11 +105,8 @@ $\theta \gets \theta - \eta \nabla_\theta E$.
 Here is an analogous visualization of how this search would be. The file [10] is in the repository, you can run it by yourself. This is an Ising model simulated by metropolis algorithm. 
 
 <figure class="image" style="width:50%">
-
-  <img src="https://media1.tenor.com/images/c20400089a4f275b4c1b32ebe309d93f/tenor.gif" alt="">
-
- <figcaption><i></i></figcaption>
-
+  <img src="http://c.files.bbci.co.uk/CF3C/production/_111925035_penguino.jpg" alt="">
+  <figcaption><i></i></figcaption>
 </figure>
 
  
