@@ -26,13 +26,13 @@ Here is some information of what Neural Quantum States (NQS) is.
 
 In our math context, NQS corresponds to modeling **high-dimensional probability measures** with structured correlations, much like energy-based models or variational inference extended into quantum space. 
 
-In physics context, where it originated, NQS is a method of approximating wavefunction by neural networks. This is aimed at solving quantum many-body problems by neural networks, and for solving quantum many-body problems, other famous approaches include density functional theory (DFT) and quantum Hamiltonian simulation. 
+In physics context, where it originated, NQS is a method of approximating wavefunction by neural networks. This is aimed for solving quantum many-body problems by neural networks, and solving quantum many-body problems, other famous analogous approaches include density functional theory (DFT) and quantum Hamiltonian simulation. 
 
-More technically, this is the realm of compressing high dimensional data into a lower-dimensional manifolds, because of quantum entanglements, the dimensions of Hilbert space of quantum states grows exponentially, and this method is introduced for lowering the dimensions while trying to keep vital information captured such that we can do easier simulation computations. 
+More technically, the essence of NQS is compressing high dimensional data into a lower-dimensional manifolds, because of quantum entanglements, the dimension of Hilbert space of quantum states grows exponentially, and this method is introduced for lowering the dimensions while trying to keep vital information captured such that we can do easier simulation computations while maintaining accuracy. 
 
 # Related Papers
 
-The following are few papers that you can take a look. Some files are in the repository, and links are also attached. 
+The following papers are what I found very good to understand NQS. Some files are in the repository, and links are also attached. 
 
 [1] [Solving the quantum many-body problem with artificial neural networks | Science](https://www.science.org/doi/10.1126/science.aag2302)
 
