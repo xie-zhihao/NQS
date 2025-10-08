@@ -83,7 +83,7 @@ where $g^e$ is the encoder function, t is an element of the translation group, T
 
 4. Make network translationally-symmetric by projecting to a specific momentum, k,
 
-$\Psi^{(k)}_{\theta}(\sigma) = \frac{1}{|T|} \sum_{t \in T} e^{-i k \cdot r_t} \Psi_{\theta}(t^{-1}\sigma)$, 
+$\Psi^{(k)}_{\theta}(\sigma) = \frac{1}{\lvert T\rvert}\,\sum_{t \in T} e^{-i\, k \cdot r_t}\,\Psi_{\theta}\!\left(t^{-1}\sigma\right)$, 
 
 and this is a neural quantum state being constructed via symmetry projection, this is equivalent to group representation projection operator: $\Psi^{(k)} = \frac{1}{|T|} \sum_{t \in T} \chi_k^*(t)\, \hat{T}_t \Psi$. 
 
@@ -102,7 +102,7 @@ Stochastic gradient type method, normal way includes quantum version SGD: stocha
 
 $\theta \gets \theta - \eta \nabla_\theta E$.
 
-Here is an analogous visualization of how this search would be. The file [10] (# https://github.com/xie-zhihao/NQS/blob/main/ising2D_ZX.m) is in the repository, you can run it by yourself. This is an Ising model simulated by metropolis algorithm. 
+Here is an analogous visualization of how this search would be. The file [10] https://github.com/xie-zhihao/NQS/blob/main/ising2D_ZX.m is in the repository, you can run it by yourself. This is an Ising model simulated by metropolis algorithm. 
 
 <figure class="image" style="width:50%">
   <img src="https://github.com/xie-zhihao/NQS/blob/main/ising2D_ZX.gif" alt="">
