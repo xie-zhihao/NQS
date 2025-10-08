@@ -81,9 +81,9 @@ $\tilde{\sigma}_{\hat{t} r} [l+ 1] = g^e (t^{-1} \tilde{\sigma}_r [l])$,
 
 where $g^e$ is the encoder function, t is an element of the translation group, T, l labels the layers of the encoder.
 
-4. Make network translationally-symmetric by projecting to a specific momentum, k,
+4. Make network translationally-symmetric by projecting to a specific momentum, $\mathbb{k}$,
 
-$\Psi^{(k)}_{\theta}$, 
+$\Psi^{(k)}_{\theta} (\mathbb{\sigma}) = \frac{1}{|T|} \sum_{t \in T} e^{-i \mathbb{k} \cdot \mathbb{r}_t } \Psi_\theta (t^{-1} \mathbb{\sigma})$, 
 
 and this is a neural quantum state being constructed via symmetry projection, this is equivalent to group representation projection operator: $\Psi^{(k)} = \frac{1}{|T|} \sum_{t \in T} \chi_k^*(t)\, \hat{T}_t \Psi$. 
 
