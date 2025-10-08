@@ -102,10 +102,10 @@ Stochastic gradient type method, normal way includes quantum version SGD: stocha
 
 $\theta \gets \theta - \eta \nabla_\theta E$.
 
-Here is an analogous visualization of how this search would be. The file [10] is in the repository, you can run it by yourself. This is an Ising model simulated by metropolis algorithm. 
+Here is an analogous visualization of how this search would be. The file [10] (# https://github.com/xie-zhihao/NQS/blob/main/ising2D_ZX.m) is in the repository, you can run it by yourself. This is an Ising model simulated by metropolis algorithm. 
 
 <figure class="image" style="width:50%">
-  <img src="http://c.files.bbci.co.uk/CF3C/production/_111925035_penguino.jpg" alt="">
+  <img src="https://github.com/xie-zhihao/NQS/blob/main/ising2D_ZX.gif" alt="">
   <figcaption><i></i></figcaption>
 </figure>
 
