@@ -28,7 +28,7 @@ In our math context, NQS corresponds to modeling **high-dimensional probability 
 
 In physics context, where it originated, NQS is a method of approximating wavefunction by neural networks. This is aimed for solving quantum many-body problems by neural networks, and solving quantum many-body problems, other famous analogous approaches include density functional theory (DFT) and quantum Hamiltonian simulation. 
 
-More technically, the essence of NQS is compressing high dimensional data into a lower-dimensional manifolds, because of quantum entanglements, the dimension of Hilbert space of quantum states grows exponentially, and this method is introduced for lowering the dimensions while trying to keep vital information captured such that we can do easier simulation computations while maintaining accuracy. 
+More technically, the essence of NQS is compressing high dimensional datas into lower-dimensional manifolds, because of quantum entanglements, the dimension of Hilbert space of quantum states grows exponentially, and this method is introduced for lowering the dimensions while trying to keep vital information captured such that we can do easier simulation computations while maintaining accuracy. 
 
 # Related Papers
 
